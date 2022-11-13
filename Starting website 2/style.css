@@ -552,6 +552,29 @@ button {
     box-shadow: none;
 }
 
+.form-group {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.form-control {
+    height: 40px;
+    border-radius: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.footer-bloc
+{
+    display: flex;
+    justify-content: center;
+}
+.btn-modif {
+    width: 70%;
+    height: 40px;
+    border-radius: 30px;
+}
+
 .scrollToTop {
     width: 40px;
     height: 40px;
@@ -797,13 +820,30 @@ h4 {
     margin-bottom: 24px;
 }
 
+.footer-bloc8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
 }
 
+.bloc-8-footer {
+    display: flex;
+    justify-content: center;
+   
+}
+
 .text-size {
     font-size: medium;
+}
+
+.text-contact {
+    font-size: large;
+    text-align: center;
 }
 
 .avatar {
