@@ -98,6 +98,11 @@ a:hover {
 
 .b-parallax {
     background-attachment: fixed;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    
 }
 
 .d-bloc {
@@ -324,9 +329,25 @@ a:hover {
 }
 
 .nav > li {
-    float: left;
-    margin-top: 4px;
-    font-size: 16px;
+float: left;
+font-size: 16px;
+border: solid transparent 2px;
+border-radius: 30px;
+margin: 10px;
+height: 41px;
+display: flex;
+align-items: center;
+justify-content: center;
+background: whitesmoke;
+box-shadow: 3px 5px 5px gray;
+color: #000000;
+transition: .2s ease-in-out 0s;
+ 
+}
+.nav > li:hover
+{
+    background-color: #f3976ca0;
+    transform: scale(1.1);
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -439,6 +460,7 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+    font-size: large;
 }
 
 .mg-lg {
@@ -652,15 +674,25 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: black!important;
 }
-
+.discrptionText1
+{
+    font-size: 25px;
+    border-radius: 20px;
+    background-color: #F3976C;
+    height: 200px;
+    text-align: inherit;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
 .container {
     max-width: 1000px;
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 40px;
 }
 
 .hero-bloc-text-sub {
@@ -738,6 +770,7 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+    font-size: x-large;
 }
 
 .portfolio-thumb {
@@ -748,7 +781,10 @@ h4 {
     margin-bottom: 44px;
     margin-top: 50px;
 }
-
+.text-size
+{
+    font-size: medium;
+}
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
@@ -774,21 +810,34 @@ h4 {
 .bgc-atomic-tangerine {
     background-color: #F3976C;
 }
-
+.btn-atomic-tangerine:hover {
+    background: #c27956!important;
+    color: #FFFFFF!important;
+    transform: scale(1.1);
+}
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
+    font-size: x-large;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: black!important;
+    transition: .2s ease-in-out 0s;
+}
+.btn-atomic-tangerine:hover
+{
+    transform: scale(1.1);
+   
 }
 
-.btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
-}
 
+.descriptionAgence
+{
+    font-weight: bold;
+    text-align: center;
+    font-size: x-large;
+}
 .ltc-white {
     color: #FFFFFF!important;
 }
@@ -806,7 +855,7 @@ h4 {
 }
 
 .icon-dark-slate-blue {
-    color: #364577!important;
+    color: black!important;
     border-color: #364577!important;
 }
 
@@ -824,8 +873,14 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
+    height: 600px;
 }
+.discrptionText2
+{ 
+    color: #000000;
+    font-size: x-large;
 
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
