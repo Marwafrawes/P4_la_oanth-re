@@ -816,7 +816,7 @@ h4 {
 
 .white {
     color: #FFFFFF !important;
-    font-size: x-large;
+    font-size: 15px;
 }
 
 .portfolio-thumb {
@@ -854,8 +854,8 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
-    padding: 40px 40px 40px 40px;
+    background-color: rgba(0, 0, 0, 0.7);
+    
 }
 
 .bold-link {
@@ -1257,6 +1257,9 @@ h4 {
 
     .white {
         font-size: 15px;
+        text-align: center;
+
+        
     }
 
     .navbar {
@@ -1271,8 +1274,6 @@ h4 {
         width: 90%;
         margin-left: 5%;
     }
-    .white{
-        text-align: center;
-    }
+    
 
 }
