@@ -483,9 +483,9 @@ nav .caret {
     font-size: 17px;
     font-weight: bold;
 }
-.modifDiscription
-{ 
- font-size: 20px;
+
+.modifDiscription {
+    font-size: 20px;
 }
 
 .mg-lg {
@@ -727,13 +727,14 @@ a {
     font-weight: 400;
     color: black !important;
 }
-label
-{
+
+label {
     font-family: "helvetica";
     font-weight: 400;
     color: black !important;
     font-size: 20px;
 }
+
 .discrptionText1 {
     font-size: 25px;
     border-radius: 15px;
@@ -816,12 +817,12 @@ h3 {
 h1 {
     color: #333333 !important;
 }
-.textModif
-{
+
+.textModif {
     font-size: 30px;
 }
-.textModif1
-{
+
+.textModif1 {
     font-size: 20px;
 }
 
@@ -1131,7 +1132,7 @@ h4 {
     }
 
     .navbar-collapse {
-        padding: 0;
+        
         -webkit-box-shadow: none;
         box-shadow: none;
         width: 100%;
@@ -1162,8 +1163,8 @@ h4 {
     .bloc-lg {
         padding: 40px 0;
     }
-    .bg-banniere
-    {
+
+    .bg-banniere {
         height: auto;
     }
 
